@@ -12,7 +12,7 @@ library(emmeans)
 urchin <- read_csv("data_collection.csv") 
 
 urchin <- urchin |> 
-  mutate(high_tide = tide_level >= 1)
+  mutate(high_tide = tide_level >= 1) #create new variable for high or low tide
 ```
 
 # Summary Statistics
