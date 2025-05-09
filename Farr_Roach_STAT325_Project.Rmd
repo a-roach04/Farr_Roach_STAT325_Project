@@ -7,6 +7,8 @@ output: html_document
 library(tidyverse)
 library(mosaic) 
 library(ggformula)
+library(emmeans)
+
 urchin <- read_csv("data_collection.csv") 
 
 urchin <- urchin |> 
@@ -21,6 +23,36 @@ df_stats(count ~ high_tide, data = urchin)
 ```
 
 ```{r graphics}
-gf_point(count ~ location, data = urchin, color = ~high_tide)
+gf_point(count ~ location, 
+         data = urchin, 
+         color = ~high_tide,
+         xlab = "Tidepool Location", 
+         ylab = "Number of Purple Urchins Observed") + 
+  labs(color = "High tide?")
+
+gf_point(count ~ high_tide, 
+         data = urchin, 
+         color = ~location,
+         xlab = "High tide", 
+         ylab = "Number of Purple Urchins Observed") + 
+  labs(color = "Block (location)")
+```
+
+# RCBD
+
+```{r rcbd}
+urchin_fit <- aov(count ~ high_tide + location, data = urchin) 
+anova(urchin_fit)
+```
+
+```{r re}
+MSE <- 91.22
+MSB <- 692.14
+b <- 4
+t <- 2
+num <- (b - 1) * MSB + b * (t - 1) * MSE
+den <- (b * t - 1) * MSE
+RE <- num/den
+RE
 ```
 
