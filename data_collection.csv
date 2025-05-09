@@ -1,0 +1,89 @@
+location,id,tide_level,start_time,end_time,quad,count
+Carmel Point,1,0.2,10:30,10:51,0,21
+Carmel Point,1,0.2,10:30,10:51,2,31
+Carmel Point,1,0.2,10:30,10:51,4,58
+Carmel Point,1,0.2,10:30,10:51,6,68
+Carmel Point,1,0.2,10:30,10:51,8,26
+Carmel Point,1,0.2,10:30,10:51,10,26
+Carmel Point,1,0.2,10:30,10:51,12,19
+Carmel Point,1,0.2,10:30,10:51,14,1
+Carmel Point,1,0.2,10:30,10:51,16,0
+Carmel Point,1,0.2,10:30,10:51,18,0
+Carmel Point,1,0.2,10:30,10:51,20,0
+Carmel Point,2,1.1,12:27,12:40,0,0
+Carmel Point,2,1.1,12:27,12:40,2,4
+Carmel Point,2,1.1,12:27,12:40,4,0
+Carmel Point,2,1.1,12:27,12:40,6,0
+Carmel Point,2,1.1,12:27,12:40,8,0
+Carmel Point,2,1.1,12:27,12:40,10,0
+Carmel Point,2,1.1,12:27,12:40,12,0
+Carmel Point,2,1.1,12:27,12:40,14,0
+Carmel Point,2,1.1,12:27,12:40,16,0
+Carmel Point,2,1.1,12:27,12:40,18,0
+Carmel Point,2,1.1,12:27,12:40,20,0
+Lovers Point,3,1.2,4:10,4:28,0,0
+Lovers Point,3,1.2,4:10,4:28,2,0
+Lovers Point,3,1.2,4:10,4:28,4,0
+Lovers Point,3,1.2,4:10,4:28,6,0
+Lovers Point,3,1.2,4:10,4:28,8,0
+Lovers Point,3,1.2,4:10,4:28,10,0
+Lovers Point,3,1.2,4:10,4:28,12,0
+Lovers Point,3,1.2,4:10,4:28,14,0
+Lovers Point,3,1.2,4:10,4:28,16,0
+Lovers Point,3,1.2,4:10,4:28,18,0
+Lovers Point,3,1.2,4:10,4:28,20,0
+Lovers Point,4,-0.3,6:30,6:41,0,13
+Lovers Point,4,-0.3,6:30,6:41,2,1
+Lovers Point,4,-0.3,6:30,6:41,4,7
+Lovers Point,4,-0.3,6:30,6:41,6,0
+Lovers Point,4,-0.3,6:30,6:41,8,0
+Lovers Point,4,-0.3,6:30,6:41,10,0
+Lovers Point,4,-0.3,6:30,6:41,12,0
+Lovers Point,4,-0.3,6:30,6:41,14,0
+Lovers Point,4,-0.3,6:30,6:41,16,0
+Lovers Point,4,-0.3,6:30,6:41,18,0
+Lovers Point,4,-0.3,6:30,6:41,20,1
+Asilomar,5,-0.6,10:43,10:59,0,0
+Asilomar,5,-0.6,10:43,10:59,2,0
+Asilomar,5,-0.6,10:43,10:59,4,0
+Asilomar,5,-0.6,10:43,10:59,6,0
+Asilomar,5,-0.6,10:43,10:59,8,1
+Asilomar,5,-0.6,10:43,10:59,10,0
+Asilomar,5,-0.6,10:43,10:59,12,0
+Asilomar,5,-0.6,10:43,10:59,14,0
+Asilomar,5,-0.6,10:43,10:59,16,0
+Asilomar,5,-0.6,10:43,10:59,18,0
+Asilomar,5,-0.6,10:43,10:59,20,0
+Asilomar,6,1.2,1:33,1:41,0,0
+Asilomar,6,1.2,1:33,1:41,2,0
+Asilomar,6,1.2,1:33,1:41,4,0
+Asilomar,6,1.2,1:33,1:41,6,0
+Asilomar,6,1.2,1:33,1:41,8,0
+Asilomar,6,1.2,1:33,1:41,10,0
+Asilomar,6,1.2,1:33,1:41,12,0
+Asilomar,6,1.2,1:33,1:41,14,0
+Asilomar,6,1.2,1:33,1:41,16,0
+Asilomar,6,1.2,1:33,1:41,18,0
+Asilomar,6,1.2,1:33,1:41,20,0
+Point Pinos,7,0.16,12:20,12:28,0,0
+Point Pinos,7,0.16,12:20,12:28,2,0
+Point Pinos,7,0.16,12:20,12:28,4,0
+Point Pinos,7,0.16,12:20,12:28,6,0
+Point Pinos,7,0.16,12:20,12:28,8,0
+Point Pinos,7,0.16,12:20,12:28,10,0
+Point Pinos,7,0.16,12:20,12:28,12,0
+Point Pinos,7,0.16,12:20,12:28,14,0
+Point Pinos,7,0.16,12:20,12:28,16,0
+Point Pinos,7,0.16,12:20,12:28,18,0
+Point Pinos,7,0.16,12:20,12:28,20,0
+Point Pinos,8,1.2,2:52,2:54,0,0
+Point Pinos,8,1.2,2:52,2:54,2,0
+Point Pinos,8,1.2,2:52,2:54,4,0
+Point Pinos,8,1.2,2:52,2:54,6,1
+Point Pinos,8,1.2,2:52,2:54,8,0
+Point Pinos,8,1.2,2:52,2:54,10,0
+Point Pinos,8,1.2,2:52,2:54,12,0
+Point Pinos,8,1.2,2:52,2:54,14,0
+Point Pinos,8,1.2,2:52,2:54,16,0
+Point Pinos,8,1.2,2:52,2:54,18,0
+Point Pinos,8,1.2,2:52,2:54,20,0

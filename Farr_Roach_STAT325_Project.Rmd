@@ -1,0 +1,26 @@
+---
+title: "STAT325 Project"
+output: html_document
+---
+
+```{r setup}
+library(tidyverse)
+library(mosaic) 
+library(ggformula)
+urchin <- read_csv("data_collection.csv") 
+
+urchin <- urchin |> 
+  mutate(high_tide = tide_level >= 1)
+```
+
+# Summary Statistics
+
+```{r summary_stats}
+df_stats(count ~ location, data = urchin)
+df_stats(count ~ high_tide, data = urchin)
+```
+
+```{r graphics}
+gf_point(count ~ location, data = urchin, color = ~high_tide)
+```
+
